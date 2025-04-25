@@ -21,7 +21,7 @@
 
 ### Add dependency
 ```groovy
-implementation 'com.github.husniddin-fido:CardScanner:0.0.1'
+implementation 'com.github.husniddin-fido:CardScanner:0.0.2'
 ```
 
 ### Check and request a camera permission
