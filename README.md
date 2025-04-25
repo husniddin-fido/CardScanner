@@ -17,5 +17,5 @@
 
 ### Add dependency
 ```groovy
-implementation 'com.github.husniddin-fido:CardScanner:Tag'
+implementation 'com.github.husniddin-fido:CardScanner:v001'
 ```
