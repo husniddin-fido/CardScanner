@@ -14,7 +14,8 @@
 ---
 
 ## 🛠 Installation
-
-### Add dependency
-
 [![](https://jitpack.io/v/husniddin-fido/CardScanner.svg)](https://jitpack.io/#husniddin-fido/CardScanner)
+### Add dependency
+```groovy
+implementation 'com.github.husniddin-fido:CardScanner:v001'
+```
