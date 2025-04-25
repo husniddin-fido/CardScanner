@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
                 val cardNumber = scanResult?.number
                 val expireDate = scanResult?.expiryForDisplay()
                 if (cardNumber != null) {
-                    findViewById<TextView>(R.id.info_text).text = cardNumber + "/n" + expireDate
+                    findViewById<TextView>(R.id.info_text).text = cardNumber + "\n" + expireDate
                 }
             }
         }
