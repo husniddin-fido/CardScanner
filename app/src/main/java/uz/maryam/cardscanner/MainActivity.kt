@@ -43,8 +43,8 @@ class MainActivity : AppCompatActivity() {
         }
 
     private val cameraPermission =
-        registerForActivityResult(ActivityResultContracts.RequestPermission()) {
-            if (it) {
+        registerForActivityResult(ActivityResultContracts.RequestPermission()) { permissionGranted ->
+            if (permissionGranted) {
                 //we have a permission for camera
             } else {
                 Toast.makeText(
