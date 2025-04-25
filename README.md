@@ -15,8 +15,7 @@
 
 ## 🛠 Installation
 
-Clone the repository and include it as a module in your project:
-
-dependencies {
-    implementation("com.github.husniddin-fido:CardScanner:Tag")
-}
+### Add dependency
+```groovy
+implementation 'com.github.husniddin-fido:CardScanner:Tag'
+```
