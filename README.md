@@ -32,8 +32,7 @@ private fun checkForCameraPermission(): Boolean {
         return true
 }
 
-private val cameraPermission =
-        registerForActivityResult(ActivityResultContracts.RequestPermission()) { permissionGranted ->
+private val cameraPermission = registerForActivityResult(ActivityResultContracts.RequestPermission()) { permissionGranted ->
             if (permissionGranted) {
                 //we have a permission for camera
             } else {
@@ -61,14 +60,13 @@ private fun openCameraForCardRead() {
 ```
 ### Get result from CardScannerActivity:
 ```kotlin
-private val getActivityResult =
-        registerForActivityResult(ActivityResultContracts.StartActivityForResult()) {
-            if (it.resultCode == Activity.RESULT_OK && it.data != null) {
+private val getActivityResult = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) {
+        if (it.resultCode == Activity.RESULT_OK && it.data != null) {
                 val scanResult = CardScannerActivity.creditCardFromResult(it.data)
                 val cardNumber = scanResult?.number
                 val expireDate = scanResult?.expiryForDisplay()
                 
-            }
+        }
 }
 ```
 
