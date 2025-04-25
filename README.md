@@ -16,6 +16,7 @@
 ![Demo GIF](assets/demo_video.gif)
 ---
 
+---
 ## 🛠 Installation
 [![](https://jitpack.io/v/husniddin-fido/CardScanner.svg)](https://jitpack.io/#husniddin-fido/CardScanner)
 
